@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>laboratorio 1.1</title>
+    <title>laboratorio 1.3</title>
 </head>
 <body>
+    <center>
     <?php
-    $ini = "Hola";
-    $fin = " a todos";
-    $todo = $ini.$fin;
-    echo $todo;
+    echo phpinfo();
     ?>
+    </center>
 </body>
 </html>

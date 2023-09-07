@@ -24,8 +24,11 @@
             for ($n1=0; $n1 <$numero ; $n1++) {
                 echo "<tr>";
                 for ($n2=0; $n2 <$numero ; $n2++) {
-                    
-                    echo "<td style='width:15px;height:5px;'>", $n, "</td>";
+                    $val = 0;
+                    if($n1==$n2){
+                        $val = 1;
+                    }
+                    echo "<td style='width:15px;height:5px;'>", ($val), "</td>";
                     $n=$n+1;
 
                 }

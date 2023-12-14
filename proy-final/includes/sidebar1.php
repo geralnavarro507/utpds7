@@ -29,8 +29,8 @@
                         </a>
                     </div>
                     <div class="d-grid gap-2 m-1 text-left">
-                        <a id="myInput" href="horarios.php" class="btn btn-success lg text-left">
-                            <i class="bi bi-calendar-date"></i> Horario
+                        <a id="myInput" href="planificador.php" class="btn btn-success lg text-left">
+                            <i class="bi bi-calendar-date"></i> Planificador
                         </a>
                     </div>
                     <div class="d-grid gap-2 m-1">
